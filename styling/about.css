@@ -1,0 +1,83 @@
+
+
+
+p {
+  font-size: 20px; /* increase the font size */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.styled-button {
+  padding: 15px 30px; /* increase button size */
+  background-color: #2b1a63; /* set button background color */
+  color: white; /* set button text color */
+  border-radius: 15px; /* round the button corners */
+} 
+
+
+.my-component {
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  display: flex;
+  flex-direction: row;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 35px;
+
+}
+
+.card-container {
+  min-width: 275px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #b6b6f1;
+  padding: 20px;
+  box-shadow: 10px 10px #24243e;
+}
+
+.card-container:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.header{
+  text-align: center;
+}
+#about{
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+
+.element {
+  flex: 1 1 auto;
+}
+
+@media screen and (max-width:940px) {
+  .about .container {
+      grid-template-columns: 1fr;
+  }
+
+  .about .container {
+      width: 100%;
+  }
+
+  .about .container img {
+      padding: 0rem;
+      width: 90vw;
+  }
+
+  .about .container .col-2 {
+      padding: 0;
+  }
+
+  .about button {
+      margin-bottom: 1rem;
+  }
+}

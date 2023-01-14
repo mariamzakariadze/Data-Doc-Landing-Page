@@ -1,0 +1,17 @@
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.image-style {
+  flex: 1 0 20%;
+  margin: 10px;
+}
+#techstack{
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+
+}

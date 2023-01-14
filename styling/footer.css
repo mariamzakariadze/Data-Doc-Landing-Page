@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  color: #b6b6f1;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.copyright {
+  font-size: 18px;
+}

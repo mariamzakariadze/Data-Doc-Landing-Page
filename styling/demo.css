@@ -1,0 +1,23 @@
+#demo {
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  margin: auto;
+  padding: 8rem 1rem 0 1rem;
+  width: 100%;
+}
+
+.demo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h2{
+  margin-left: 0px;
+
+}
+
+.demos{
+  width:50%;
+}

@@ -1,0 +1,70 @@
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+#home {
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* margin: auto; */
+  /* padding: 8rem 1rem 0 1rem; */
+  width: 100%;
+  min-height: 47em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 80%;
+  animation: slide-in 1000ms;
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 40%; 
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  animation: slide-in 1000ms;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-size: 70px;
+  white-space: nowrap;
+}
+
+h2{
+  font-family: 'Cabin', sans-serif;
+  margin-left: 80px;
+}
+.npm{
+  position: absolute;
+  top:25%;
+  right: 0;
+  width: 50px;
+}
+
+.github {
+  position: absolute;
+  width: 50px;
+  top: 10%;
+}
+
+.homepage {
+  width:50%;
+  animation: slide-in 1000ms;
+
+}

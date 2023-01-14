@@ -1,0 +1,40 @@
+.team-container {
+  display: flex;
+  flex-wrap: wrap; 
+  flex-direction: row; 
+  justify-content: space-evenly; 
+  align-items: center; 
+  height: 100%; 
+  width: 100%; 
+  min-height: 20em;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.team-member {
+  width: 25%; 
+  text-align: center;
+}
+.rounded-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.links a {
+  margin: 5px;
+}
+
+.link-icon{
+  width:10%;
+}
+
+.team{
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  padding-top: 5%;
+
+}
+
+.teamheader {
+  margin-bottom: 1px;
+}
+
