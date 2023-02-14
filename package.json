@@ -4,8 +4,9 @@
   "description": "landing page for an API monitoring open source product",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "start": "open dist/index.html",
     "dev": "webpack serve --open",
+    "ci": "echo 'Running CI Script...'",
     "build": "webpack",
     "test": "jest --verbose"
   },
@@ -29,7 +30,6 @@
     "css-loader": "^6.7.3",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
-    "nodemon": "^2.0.20",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.2",
