@@ -54,7 +54,6 @@ function NavBar() {
     <AppBar position="static" sx={{background: 'linear-gradient(to right, #24243e, #302b63, #0f0c29)'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1}} />
           <Typography
             variant="h6"
             noWrap
@@ -63,9 +62,9 @@ function NavBar() {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
+              fontFamily: 'sans-serif',
               fontWeight: 700,
-              letterSpacing: '.3rem',
+              letterSpacing: '.1rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
